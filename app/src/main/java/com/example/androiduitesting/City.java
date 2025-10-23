@@ -16,4 +16,9 @@ public class City {
     String getProvinceName(){
         return this.province;
     }
+    @Override
+    public String toString() {
+        return city;
+    }
+
 }
